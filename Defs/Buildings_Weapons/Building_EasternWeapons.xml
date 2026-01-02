@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+      <defName>BuildingsExports</defName>
+      <label>Exportable</label>
+      <parent>Buildings</parent>
+    </ThingCategoryDef>
+
+  <DesignationCategoryDef>
+    <defName>Exportable</defName>
+    <label>Exportable</label>
+    <order>999</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+    </specialDesignatorClasses>
+  </DesignationCategoryDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_TT33M</defName>
+    <label>Crate of TT-33</label>
+    <description>A crate full of TT-33. Some TTs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_TT33</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>20</Steel>
+      <OLL_TT33M>10</OLL_TT33M>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(1,1)</size>
+    <researchPrerequisites><li>BlowbackOperation</li></researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Suppressed_TT33M</defName>
+    <label>Crate of TT-33 Suppressed</label>
+    <description>A crate full of TT-33 Suppressed. Some TTs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Suppressed_TT33</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>20</Steel>
+      <OLL_Suppressed_TT33M>10</OLL_Suppressed_TT33M>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(1,1)</size>
+    <researchPrerequisites><li>BlowbackOperation</li></researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_MP443M</defName>
+    <label>Crate of MP-443 Grach</label>
+    <description>A crate full of MP443M. Some MPs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_MP443</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>20</Steel>
+      <OLL_MP443M>10</OLL_MP443M>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(1,1)</size>
+    <researchPrerequisites><li>BlowbackOperation</li></researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Modded_MP443M</defName>
+    <label>Crate of MP-443 Grach Modded</label>
+    <description>A crate full of MP-443 Grach Modded. Some MPs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Modded_MP443</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>20</Steel>
+      <OLL_Modded_MP443M>10</OLL_Modded_MP443M>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(1,1)</size>
+    <researchPrerequisites><li>BlowbackOperation</li></researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_SR1M</defName>
+    <label>Crate of SR-1 Vektor Suppressed</label>
+    <description>A crate full of SR-1 Vektor. Some SRs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_SR1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>20</Steel>
+      <OLL_SR1M>10</OLL_SR1M>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(1,1)</size>
+    <researchPrerequisites><li>BlowbackOperation</li></researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Suppressed_SR1M</defName>
+    <label>Crate of SR-1 Vektor</label>
+    <description>A crate full of SR-1 Vektor. Some SRs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Suppressed_SR1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>20</Steel>
+      <OLL_Suppressed_SR1M>10</OLL_Suppressed_SR1M>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(1,1)</size>
+    <researchPrerequisites><li>BlowbackOperation</li></researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_RSh12M</defName>
+    <label>Crate of RSh12</label>
+    <description>A crate full of RSh12. Some RShs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_RSh12</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>20</Steel>
+      <OLL_RSh12M>10</OLL_RSh12M>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(1,1)</size>
+    <researchPrerequisites><li>BlowbackOperation</li></researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_SR2M</defName>
+    <label>Crate of SR-2</label>
+    <description>A crate full of SR-2. Some SRs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_SR2M</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_SR2M>10</OLL_SR2M>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_SR2P</defName>
+    <label>Crate of SR-2P</label>
+    <description>A crate full of SR-2. Some SRs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_SR2P</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_SR2P>10</OLL_SR2P>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_AK74norm</defName>
+    <label>Crate of AK-74</label>
+    <description>A crate full of classic AK-74. Some AKs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_AK74</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_AK-74norm>10</OLL_AK-74norm>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Assault_AK74_I</defName>
+    <label>Crate of AK-74 Assault II</label>
+    <description>A crate full of modded AK-74. Some AKs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Assault_AK74_I</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_Assault_AK74_I>10</OLL_Assault_AK74_I>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Assault_AK74_II</defName>
+    <label>Crate of AK-74 Assault II</label>
+    <description>A crate full of modded AK-74. Some AKs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Assault_AK74_II</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_Assault_AK74_II>10</OLL_Assault_AK74_II>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Suppressed_AK74_I</defName>
+    <label>Crate of AK-74 Suppressed I</label>
+    <description>A crate full of modded AK-74. Some AKs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Suppressed_AK74_I</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_Suppressed_AK74_I>10</OLL_Suppressed_AK74_I>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Suppressed_AK74_II</defName>
+    <label>Crate of AK-74 Suppressed II</label>
+    <description>A crate full of modded AK-74. Some AKs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Suppressed_AK74_II</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_Suppressed_AK74_II>10</OLL_Suppressed_AK74_II>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_AKS74Unorm</defName>
+    <label>Crate of AKS-74U</label>
+    <description>A crate full of classic AKS-74U. Some AKs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Suppressed_AKS74U</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_AKS-74Unorm>10</OLL_AKS-74Unorm>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Assault_AKS74U</defName>
+    <label>Crate of AKS-74U Assault </label>
+    <description>A crate full of modded AK-74. Some AKs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Assault_AKS74U</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_Assault_AKS74U>10</OLL_Assault_AKS74U>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Suppressed_AKS74U</defName>
+    <label>Crate of AKS-74U Suppressed</label>
+    <description>A crate full of modded AKS-74U. Some AKs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Suppressed_AKS74U</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_Suppressed_AKS74U>10</OLL_Suppressed_AKS74U>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Assault_SVD</defName>
+    <label>Crate of SVD Assault </label>
+    <description>A crate full of modded SVD. Some SVDs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Assault_SVD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_Assault_SVD>10</OLL_Assault_SVD>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+    <defName>OLL_Box_Suppressed_SVD</defName>
+    <label>Crate of SVD Suppressed</label>
+    <description>A crate full of modded SVD. Some SVDs will become unusable when unbox.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OLL_Box_Suppressed_SVD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsExports</li>
+    </thingCategories>
+    <costList>
+      <Steel>40</Steel>
+      <OLL_Suppressed_SVD>10</OLL_Suppressed_SVD>
+    </costList>
+    <statBases>
+      <SellPriceFactor>1.15</SellPriceFactor>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>8</Mass>
+    </statBases>
+    <pathCost>50</pathCost>
+    <passability>PassThroughOnly</passability>
+    <size>(2,1)</size>
+    <researchPrerequisites><li>PrecisionRifling</li></researchPrerequisites>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <designationCategory>Exportable</designationCategory>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

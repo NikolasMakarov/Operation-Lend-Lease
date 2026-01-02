@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <SoundDef>
+        <defName>OLL_shot_pistol_9x19mm</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_pistol_9x19mm</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>OLL_shot_pistol_9x21mm</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_pistol_9x21mm</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>OLL_shot_pistol_suppressed_9x21mm</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_pistol_suppressed_9x21mm</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>OLL_shot_pistol_127x55mm</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_pistol_127x55mm</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>OLL_shot_suppressed_9x21mm</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_suppressed_9x21mm</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>OLL_shot_545x39mm</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_545x39mm</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>OLL_shot_762x54mmR</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_762x54mmR</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>OLL_shot_suppressed_545x39mm</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_suppressed_545x39mm</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>OLL_shot_suppressed_762x54mmR</defName>
+        <context>MapOnly</context>
+        <eventNames/>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Shooting/OLL_shot_suppressed_762x54mmR</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>46</min>
+                    <max>52</max>
+                </volumeRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>
